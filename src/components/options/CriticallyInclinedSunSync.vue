@@ -1,7 +1,7 @@
 <template>
   <div class="options">
     <el-row>
-      <div align="left">Position</div>
+      <div class="sub-title" align="left">Position</div>
     </el-row>
     <el-row>
       <el-col :span="24">

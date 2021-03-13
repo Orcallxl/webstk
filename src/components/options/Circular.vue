@@ -1,7 +1,7 @@
 <template>
-    <div class="circular">
+    <div class="options">
       <el-row>
-        <div align="left">Definition</div>
+        <div class="sub-title" align="left">Definition</div>
       </el-row>
       <el-row>
         <el-col :span="24">
@@ -40,4 +40,5 @@
 </script>
 
 <style scoped>
+
 </style>

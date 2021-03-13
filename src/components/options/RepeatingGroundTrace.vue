@@ -1,7 +1,7 @@
 <template>
   <div class="options">
     <el-row>
-      <div align="left">Position</div>
+      <div class="sub-title" align="left">Position</div>
     </el-row>
     <el-row>
       <el-col :span="24">
@@ -16,7 +16,7 @@
       </el-col>
     </el-row>
     <el-row>
-      <div align="left">Definition</div>
+      <div class="sub-title" align="left">Definition</div>
     </el-row>
      <el-row>
        <el-form :inline="true" label-width="250px" :model="params">

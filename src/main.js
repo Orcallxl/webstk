@@ -8,6 +8,11 @@ import  'element-ui/lib/theme-chalk/index.css'
 import './assets/icon/iconfont.css'
 import * as echarts  from 'echarts'
 import ElementUI from 'element-ui'
+import * as Cesium from 'cesium'
+import * as widgets from 'cesium/Source/Widgets/widgets.css'
+
+window.Cesium = Cesium
+Vue.prototype.widgets = widgets
 Vue.prototype.$echarts = echarts;
 Vue.use(ElementUI)
 Vue.use(echarts)
